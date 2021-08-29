@@ -1,5 +1,5 @@
 // cubelist.cpp
-// list cubes from 1 to 10
+// lists cubes from 1 to 100
 
 #include <iostream>
 #include <iomanip>
@@ -9,11 +9,11 @@ int main()
 {
     int numb;
 
-    for (numb = 1; numb <= 10; numb++)
+    for (numb = 1; numb <= 100; numb++)
     {
         cout << setw(4) << numb;
-        int cube = numb * numb * numb;
-        cout << setw(6) << cube << endl;
+        int cube= numb*numb*numb;
+        cout << setw(10) << cube << endl;
     }
     return 0;
 }
