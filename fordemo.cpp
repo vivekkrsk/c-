@@ -1,15 +1,15 @@
 // fordemo.cpp
-// demostrates simple FOR loop
+// demonstrate simple for loop
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int j;
+int j;
 
-    for (j = 0; j < 15; j++)
-        cout << j * j << " " ;
-        cout << endl;
-    return 0;
+for(j=0; j<15; j++)
+  cout << j*j << " ";
+  cout << endl;
+return 0;
 }
