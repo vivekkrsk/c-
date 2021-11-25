@@ -36,6 +36,7 @@ void linklist::additem(int r, string n, string b, float m)
     first = newlink;
 }
 
+
 void linklist::display()
 {
     link* current=first;
